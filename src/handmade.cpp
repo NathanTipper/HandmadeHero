@@ -119,7 +119,8 @@ GAME_UPDATE_AND_RENDER(GameUpdateAndRender)
     }
 
     RenderWeirdGradient(Buffer, GameState->BlueOffset, GameState->GreenOffset);
-    RenderPlayer(Buffer, GameState->PlayerX, GameState->PlayerY);
+
+    RenderPlayer(Buffer, GameState->PlayerX , GameState->PlayerY);
 }
 
 
